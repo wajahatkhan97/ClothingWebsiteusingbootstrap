@@ -11,7 +11,19 @@ body {
 p {
     line-height: 1.75
 }
+.map {
+    height: 30rem
+}
 
+@media (max-width: 992px) {
+    .map {
+        height:75%
+    }
+}
+
+.map iframe {
+    pointer-events: none
+}
 a {
     color: #fed136
 }
