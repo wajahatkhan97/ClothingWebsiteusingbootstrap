@@ -124,7 +124,7 @@ img::-moz-selection {
     text-transform: uppercase;
     color: #fff;
     border: 0;
-    background-color: #fed136;
+    background-color: #d50032;
     font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
 }
 
@@ -147,11 +147,10 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,#mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136
+    color: #d50032
 }
 
-@media (min-width: 992px) {
-    #mainNav {
+@media (min-width: #d50032    #mainNav {
         padding-top:25px;
         padding-bottom: 25px;
         transition: padding-top .3s,padding-bottom .3s;
@@ -402,7 +401,7 @@ header.masthead .intro-text .intro-heading {
     position: absolute;
     width: 100%;
     height: 100%;
-    transition: all ease .5s;
+    transition: all ease .11s;
     opacity: 0;
     background: rgba(254,209,54,.9)
 }
@@ -455,10 +454,11 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 767px) {
-    #Comingsoon .portfolio-item {
+    #portfolio .portfolio-item {
         margin:0 0 30px
     }
 }
+
 
 
 
